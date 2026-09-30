@@ -1,0 +1,50 @@
+{
+  "base": "Local offline copy of the published site",
+  "authenticated": false,
+  "offline": true,
+  "errors": [],
+  "console_errors": [],
+  "requests": [],
+  "cases": [
+    {
+      "framework": "langextract",
+      "case": "2020-0256",
+      "visible_spans": 14
+    },
+    {
+      "framework": "langextract",
+      "case": "2022-0040",
+      "visible_spans": 6
+    },
+    {
+      "framework": "langextract",
+      "case": "2026-0009",
+      "visible_spans": 9
+    },
+    {
+      "framework": "docetl",
+      "case": "2020-0256"
+    },
+    {
+      "framework": "docetl",
+      "case": "2022-0040"
+    },
+    {
+      "framework": "docetl",
+      "case": "2026-0009"
+    }
+  ],
+  "downloads": [
+    {
+      "framework": "langextract",
+      "name": "langextract-2026-0009.jsonl"
+    },
+    {
+      "framework": "docetl",
+      "name": "docetl-native-output.json"
+    }
+  ],
+  "passed": true,
+  "browser": "153.0.8010.12",
+  "test_note": "The initial check used an exact Next button name; correcting it to match the native icon-prefixed label completed the check without changing viewer HTML."
+}

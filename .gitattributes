@@ -1,0 +1,2 @@
+# Keep the tested generated JavaScript template literals unchanged.
+docetl-luna-low.html whitespace=-blank-at-eol
